@@ -1,0 +1,29 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "crypto": "^1.0.1",
+    "cryptr": "^4.0.2",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.3.0",
+    "nodemon": "^1.19.1",
+    "pg": "^7.11.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2"
+  }
+}
